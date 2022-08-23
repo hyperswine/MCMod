@@ -13,6 +13,7 @@ val mavenGroup: String by project
 group = mavenGroup
 repositories {}
 dependencies {
+    testImplementation("org.testng:testng:7.1.0")
     val minecraftVersion: String by project
     minecraft("com.mojang", "minecraft", minecraftVersion)
     val yarnMappings: String by project

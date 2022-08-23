@@ -1,11 +1,11 @@
-package com.mod_author.mod_id
+package com.hyperswine.mcmod
 
 import net.fabricmc.api.ModInitializer
 
 @Suppress("UNUSED")
 object ModName : ModInitializer {
-    private const val MOD_ID = "mod_id"
+    private const val MOD_ID = "mcmod"
     override fun onInitialize() {
-        println("Example mod has been initialized.")
+        println("MC mod has been initialized.")
     }
 }
