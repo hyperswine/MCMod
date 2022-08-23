@@ -19,7 +19,8 @@ class Car : ModInitializer {
 class CarEntity(type: EntityType<*>?, world: World?) : Entity(type, world) {
     // attributes, like accel, curr_velocity?
     // acceleration depends on how much the dude is stepping on the gas
-    // there is a max velocity though, so even while your accelerating and your v = max, you wont gain anymore speed
+    // there is a max velocity though, so even while your accelerating and your v = max, you wont
+    // gain anymore speed
 
     var w_pressed: Boolean = false
     var a_pressed: Boolean = false
@@ -28,8 +29,6 @@ class CarEntity(type: EntityType<*>?, world: World?) : Entity(type, world) {
 
     var accel: ArrayList<Float> = ArrayList()
     var velocity: ArrayList<Float> = ArrayList()
-
-
 
     override fun initDataTracker() {
         TODO("Not yet implemented")
@@ -46,5 +45,4 @@ class CarEntity(type: EntityType<*>?, world: World?) : Entity(type, world) {
     override fun createSpawnPacket(): Packet<*> {
         TODO("Not yet implemented")
     }
-
 }
