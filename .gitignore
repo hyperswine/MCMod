@@ -27,4 +27,5 @@ build
 
 run
 .idea
+.gradle
 bin
