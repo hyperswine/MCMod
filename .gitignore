@@ -26,6 +26,5 @@ replay_pid*
 build
 
 run
-.idea
 .gradle
 bin
