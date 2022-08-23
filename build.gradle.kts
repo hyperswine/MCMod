@@ -3,15 +3,22 @@ plugins {
     val kotlinVersion: String by System.getProperties()
     kotlin("jvm").version(kotlinVersion)
 }
+
 base {
     val archivesBaseName: String by project
     archivesName.set(archivesBaseName)
 }
+
 val modVersion: String by project
+
 version = modVersion
+
 val mavenGroup: String by project
+
 group = mavenGroup
+
 repositories {}
+
 dependencies {
     testImplementation("org.testng:testng:7.1.0")
     val minecraftVersion: String by project
@@ -25,6 +32,7 @@ dependencies {
     val fabricKotlinVersion: String by project
     modImplementation("net.fabricmc", "fabric-language-kotlin", fabricKotlinVersion)
 }
+
 tasks {
     val javaVersion = JavaVersion.VERSION_17
     withType<JavaCompile> {
