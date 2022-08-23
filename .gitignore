@@ -29,3 +29,4 @@ run
 .idea
 .gradle
 bin
+.vscode

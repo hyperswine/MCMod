@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.mod_author.mod_id.mixins",
+  "package": "com.hyperswine.mcmod.mixins",
   "compatibilityLevel": "JAVA_17",
   "injectors": {
     "defaultRequire": 1

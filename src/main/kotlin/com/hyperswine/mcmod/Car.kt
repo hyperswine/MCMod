@@ -9,7 +9,7 @@ import net.minecraft.network.Packet
 import net.minecraft.world.World
 
 class Car : ModInitializer {
-    var car: CarEntity = TODO()
+    // var car: CarEntity = TODO()
 
     override fun onInitialize() {
         FabricDefaultAttributeRegistry.register(null, null)
