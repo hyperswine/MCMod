@@ -6,6 +6,7 @@ import org.testng.annotations.Test
 class CarTest {
     @Test
     fun test_basics() {
+        println("Hi")
         assertTrue(1 == 1)
     }
 }
